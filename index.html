@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="calculator">
+            <input id="display" readonly>
+            <div class="calsi">
+                <div class="section">
+                    <button onclick="AllClear()" class="Operator" id="test">AC</button>
+                    <button onclick="backspace()" class="Operator" id="test">C</button>
+                    <button onclick="appendtodisplay('/')" class="Operator" id="test">/</button>
+                    <button onclick="appendtodisplay('*')" class="Operator" id="test">*</button>
+                </div>
+                <div class="section">    
+                    <button onclick="appendtodisplay('7')" class="Operator">7</button>
+                    <button onclick="appendtodisplay('8')" class="Operator">8</button>
+                    <button onclick="appendtodisplay('9')" class="Operator">9</button>
+                    <button onclick="appendtodisplay('-')" class="Operator" id="test">-</button>
+                </div>
+                <div class="section">
+                    <button onclick="appendtodisplay('4')" class="Operator">4</button>
+                    <button onclick="appendtodisplay('5')" class="Operator">5</button>
+                    <button onclick="appendtodisplay('6')" class="Operator">6</button>
+                    <button onclick="appendtodisplay('+')" class="Operator" id="test">+</button>
+                </div>
+                <div class="section">
+                    <button onclick="appendtodisplay('1')" class="Operator">1</button>
+                    <button onclick="appendtodisplay('2')" class="Operator">2</button>
+                    <button onclick="appendtodisplay('3')" class="Operator">3</button>
+                    <button onclick="calculate()" class="Operator" id="test">=</button>
+                </div>
+                <div class="section">
+                    <button onclick="appendtodisplay('0')" class="Operator">0</button>
+                    <button onclick="appendtodisplay('.')" class="Operator">.</button>
+                </div>
+            </div>
+        </div>
+        <script src="script1.js"></script>
+    </body>
+</html> 
